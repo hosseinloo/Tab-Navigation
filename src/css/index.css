@@ -1,0 +1,73 @@
+@font-face {
+    src: url('../../public/fonts/ubuntu.ttf');
+    font-family: 'ubuntu';
+}
+
+/* * {
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important; 
+    box-sizing: border-box !important;
+} */
+
+body {
+    font-family: 'ubuntu';
+    background: linear-gradient(160deg, #8bdca9, #85bda5);
+}
+
+a {
+    display: block;
+    background-color: #fdfdfd !important;
+    padding-top: .8rem !important;
+    padding-bottom: .8rem !important;
+    transition: all .3s ease-in-out !important;
+    -webkit-transition: all .3s ease-in-out !important;
+    -moz-transition: all .3s ease-in-out !important;
+    -ms-transition: all .3s ease-in-out !important;
+    -o-transition: all .3s ease-in-out !important;
+}
+
+a:hover {
+    background-color: #dddddd9a !important;
+    color: #656767 !important;
+    transition: all .3s ease-in-out !important;
+    -webkit-transition: all .2s ease-in-out !important;
+    -moz-transition: all .2s ease-in-out !important;
+    -ms-transition: all .2s ease-in-out !important;
+    -o-transition: all .2s ease-in-out !important;
+}
+
+nav.tab-navigations {
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+article {
+    transition: all .2s ease-in-out !important;
+}
+
+section.tab-contents {
+    margin-top: 0 !important;
+    border-radius: 4px !important;
+    -webkit-border-radius: 4px !important;
+    -moz-border-radius: 4px !important;
+    -ms-border-radius: 4px !important;
+    -o-border-radius: 4px !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    border: none !important;
+}
+
+.tab-contents article.tab-content-item {
+    display: none;
+    
+}
+
+a.tab-navigation-item.selected {
+    background-color: #6c757d !important;
+    color: #fdfdfd !important;
+}
+
+article.tab-content-item.selected {
+    display: block !important;
+}
